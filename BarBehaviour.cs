@@ -9,7 +9,7 @@ public class BarBehaviour : MonoBehaviour
 {
     const float SPEED = 3f;
     Vector3 desiredScale;
-    // Start is called before the first frame update
+    // Start is called before the first frame update. Test entry
     void Start()
     {
         desiredScale = transform.localScale;

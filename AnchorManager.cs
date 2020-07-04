@@ -10,7 +10,7 @@ public class AnchorManager : MonoBehaviour
     public GameObject anchoredPrefab;
     public GameObject unanchoredPrefab;
     Vector3 lastAnchoredPosition;
-    // Update is called once per frame
+    // Update is called once per frame. Added for git sample . Comment 2
     void Update()
     {
         if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
